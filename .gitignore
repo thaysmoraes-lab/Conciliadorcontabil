@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.streamlit/secrets.toml
+# dados de clientes nunca vão para o repositório
+*.xlsx
+*.xls
+*.csv
+!tests/dados/*.xlsx
+correlacoes*.json
